@@ -1,6 +1,6 @@
 {
   "name": "redux-createreducer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a reducer from an object with action handlers",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
