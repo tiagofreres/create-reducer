@@ -1,6 +1,10 @@
 # create-reducer
 Creates a [Redux](http://rackt.github.io/redux) reducer from an ActionHandlers object
 
+[![build status](https://img.shields.io/travis/tiagofreres/create-reducer/master.svg?style=flat-square)](https://travis-ci.org/tiagofreres/create-reducer)
+[![npm version](https://img.shields.io/npm/v/redux-createreducer.svg?style=flat-square)](https://www.npmjs.com/package/redux-createreducer)
+[![npm downloads](https://img.shields.io/npm/dm/redux-createreducer.svg?style=flat-square)](https://www.npmjs.com/package/redux-createreducer)
+
 `CreateReducer :: State a, ActionHandlers b, Action c => a,b -> (a,c -> a)`
 
 `ActionHandlers :: ActionType a, State b, Action c => {a: (b,c -> b), ...}`
