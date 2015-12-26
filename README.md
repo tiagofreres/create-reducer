@@ -2,6 +2,7 @@
 Creates a reducer from an ActionHandlers object
 
 `CreateReducer :: State a, ActionHandlers b, Action c => a,b -> (a,c -> a)`
+
 `ActionHandlers :: ActionType a, State b, Action c => {a: (b,c -> b), ...}`
 
 Creates a reducer from an object that each property name is an actionType and
