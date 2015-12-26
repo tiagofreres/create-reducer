@@ -1,5 +1,5 @@
 # create-reducer
-Creates a reducer from an ActionHandlers object
+Creates a [Redux](http://rackt.github.io/redux) reducer from an ActionHandlers object
 
 `CreateReducer :: State a, ActionHandlers b, Action c => a,b -> (a,c -> a)`
 
