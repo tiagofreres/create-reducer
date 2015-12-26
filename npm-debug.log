@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'version',
+1 verbose cli   'patch' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 info git [ 'status', '--porcelain' ]
+5 info preversion redux-createreducer@1.0.1
+6 verbose unsafe-perm in lifecycle true
+7 info redux-createreducer@1.0.1 Failed to exec preversion script
+8 verbose stack Error: redux-createreducer@1.0.1 preversion: `npm run clean && npm run check`
+8 verbose stack Exit status 1
+8 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+8 verbose stack     at emitTwo (events.js:87:13)
+8 verbose stack     at EventEmitter.emit (events.js:172:7)
+8 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+8 verbose stack     at emitTwo (events.js:87:13)
+8 verbose stack     at ChildProcess.emit (events.js:172:7)
+8 verbose stack     at maybeClose (internal/child_process.js:818:16)
+8 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+9 verbose pkgid redux-createreducer@1.0.1
+10 verbose cwd /Users/tiagofreres/Projects/modules/create-reducer
+11 error Darwin 14.5.0
+12 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "version" "patch"
+13 error node v4.2.2
+14 error npm  v2.14.7
+15 error code ELIFECYCLE
+16 error redux-createreducer@1.0.1 preversion: `npm run clean && npm run check`
+16 error Exit status 1
+17 error Failed at the redux-createreducer@1.0.1 preversion script 'npm run clean && npm run check'.
+17 error This is most likely a problem with the redux-createreducer package,
+17 error not with npm itself.
+17 error Tell the author that this fails on your system:
+17 error     npm run clean && npm run check
+17 error You can get their info via:
+17 error     npm owner ls redux-createreducer
+17 error There is likely additional logging output above.
+18 verbose exit [ 1, true ]
