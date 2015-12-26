@@ -10,6 +10,7 @@ new state
 
 Example:
 
+```js
 const initialState = 0;
 const actionHandlers = {
 	'INCREMENT': (state, action) => state + 1,
@@ -17,3 +18,4 @@ const actionHandlers = {
 };
 
 const reducer = createReducer(initialState, actionHandlers);
+```
