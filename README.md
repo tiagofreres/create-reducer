@@ -13,9 +13,17 @@ Creates a reducer from an object that each property name is an actionType and
 its value is a function that receive a state and an action and return a
 new state
 
-Example:
+## How to install
+
+```bash
+$ npm install redux-createreducer --save
+```
+
+## Example:
 
 ```js
+import createReducer from 'redux-createreducer';
+
 const initialState = 0;
 const actionHandlers = {
 	'INCREMENT': (state, action) => state + 1,
