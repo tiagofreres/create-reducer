@@ -32,4 +32,9 @@ describe('createReducer', () => {
     state = reducer(state, actions.decrement)
     expect(state).toEqual(_state - 1)
   })
+  it('should return the current state when no action handler type is defined', () => {
+    let _state = state
+    state = reducer(state, { type: 'noHandler' })
+    expect(state).toEqual(_state)
+  })
 })
