@@ -20,7 +20,7 @@
  * @param  {Object} actionHandlers      ActionHandlers
  * @return {Function}                   Reducer
  */
-export function createReducer(initialState, actionHandlers) {
+export default function createReducer(initialState, actionHandlers) {
   return (state = initialState, action) => {
     if (typeof actionHandlers[action.type] === 'function') {
       return actionHandlers[action.type](state, action)

@@ -1,5 +1,5 @@
 import expect from 'expect'
-import { createReducer } from '../src/index'
+import createReducer from '../src/index'
 
 var state = 0,
   reducer
